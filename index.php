@@ -16,7 +16,7 @@
 		function getSearchResults() {
 
 			$.ajax({
-				url: 'https://www.googleapis.com/customsearch/v1?key=AIzaSyBZKYPoJHSnBGcXGXR2hfBBR_koEJs3dMw&cx=010872003141797311628:lfpyihnstgs&q=Yaslip&gl=br&gl=brasil',
+				url: 'https://www.googleapis.com/customsearch/',
 				type:'GET',
 				dataType : 'json',
 				beforeSend:function(){
